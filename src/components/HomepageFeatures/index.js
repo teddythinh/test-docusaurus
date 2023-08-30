@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tìm vé tàu, đặt vé tàu trực tuyến, mua vé tàu trực tuyến, tra cứu thông tin hành trình về giờ tàu và giá vé, tra cứu lại thông tin vé đã đặt.
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Đặt phòng khuyến mãi giá rẻ nhất ở Việt Nam và các nước khác chỉ trong 3 bước đơn giản.
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Đặt các dịch vụ du lịch hoặc vé khu vui chơi giải trí với giá ưu đãi.
       </>
     ),
   },

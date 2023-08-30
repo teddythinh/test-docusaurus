@@ -2,15 +2,43 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Project Structure
 
+```text
+my-website
+├── blog
+│   ├── 2019-05-28-hola.md
+│   ├── 2019-05-29-hello-world.md
+│   └── 2020-05-30-welcome.md
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   └── mdx.md
+├── src
+│   ├── css
+│   │   └── custom.css
+│   └── pages
+│       ├── styles.module.css
+│       └── index.js
+├── static
+│   └── img
+├── docusaurus.config.js
+├── package.json
+├── README.md
+├── sidebars.js
+└── yarn.lock
 ```
+
+## Installation
+
+```bash
 $ yarn
 ```
 
 ### Local Development
 
-```
+```bash
 $ yarn start
 ```
 
@@ -18,7 +46,7 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Build
 
-```
+```bash
 $ yarn build
 ```
 
@@ -28,13 +56,13 @@ This command generates static content into the `build` directory and can be serv
 
 Using SSH:
 
-```
+```bash
 $ USE_SSH=true yarn deploy
 ```
 
 Not using SSH:
 
-```
+```bash
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
